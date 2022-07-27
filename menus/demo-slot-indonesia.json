@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle demo-slot-indonesia",
+        "command": "demo-slot-indonesia:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "demo-slot-indonesia",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "demo-slot-indonesia:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
